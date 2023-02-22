@@ -204,6 +204,7 @@
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
+    max-height: 780px;
 }
 
 .post-content pre code {
