@@ -12,6 +12,4 @@ jobs:
       with:
         fetch-depth: 10  # greater than the number of commits you made
         token: ${{ secrets.GH_PAT }}
-    - uses: imba-tjd/rebase-upstream-action@master
-      with:
-        token: ${{ secrets.GH_PAT }}
+    - uses: imba-tjd/rebase-upstream-action@0c9717490522e3aaffb5f2d27f0b20383f0e393c # last commit on master seems broken
